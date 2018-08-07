@@ -20,15 +20,7 @@ module.exports = {
             {//ES6、JSX处理
                 test: /(\.jsx|\.js)$/,
                 use: {
-                    loader: "babel-loader",
-                    options: {
-                        "presets": [
-                            "env", "react"
-                        ],
-                        plugins: [
-                            ["import", { libraryName: "antd", style: 'css' }] // antd按需加载
-                        ]
-                    }
+                    loader: "babel-loader"
                 },
                 include: rootDir + "/app/",
                 exclude: /node_modules/
