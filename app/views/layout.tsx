@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { observer } from 'mobx-react'
-import { HashRouter, Switch, Navlink } from 'react-router-dom'
+import { HashRouter, Switch, NavLink } from 'react-router-dom'
 import PageRouter from './router'
 import LayoutTag from './layout.css';
 import { Spin } from 'antd'

@@ -1,3 +1,3 @@
-#托管系统
-1.
-2.
+# react pure脚手架
+
+react+ts+webpack+antd+mobx+styled-components
